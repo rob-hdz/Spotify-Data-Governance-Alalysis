@@ -2,8 +2,10 @@
 -- It follows the Governance rules defined in the Data Dictionary
 
 CREATE TABLE IF NOT EXISTS spotify_tracks (
+    
+    row_id INTEGER PRIMARY KEY AUTOINCREMENT, -- Generate a number (ID) for every song
+    
     -- IDENTITY & METADATA
-    track_id VARCHAR(50) PRIMARY KEY, -- Unique ID
     track_name TEXT NOT NULL,
     artist_name TEXT NOT NULL,
     artist_count INTEGER,
@@ -28,3 +30,5 @@ CREATE TABLE IF NOT EXISTS spotify_tracks (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     data_source VARCHAR(50) -- To track if it's Kaggle or personal Spotify
 );
+
+"The `username` field from the raw JSON will be excluded from the SQL Schema to maintain user privacy (Anonymization)."
