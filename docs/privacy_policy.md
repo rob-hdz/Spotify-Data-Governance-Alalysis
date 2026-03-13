@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Since I intend to use my personal Spotify account data, I have the responsibility to protect my own identity. Therefore, three privacy levels are state as follows:
+Since I intend to use my personal Spotify account data, I have the responsibility to protect my own identity. Therefore, three privacy levels are stated as follows:
 
 **Level 1 (Public):** Track name, artist(s), release date, metrics. (Safe to upload to GitHub)
 
